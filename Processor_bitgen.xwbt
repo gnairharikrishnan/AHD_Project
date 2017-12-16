@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Amith\AHD\final_submission\Processor.ncd
+OUTFILE=C:\Users\Amith\AHD\final_submission\Processor.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Amith\AHD\final_submission
+LICENSE=WebPack
+USER_INFO=211396719_0_0_150

@@ -1,0 +1,5 @@
+vhdl work "RegFile_Unit.vhd"
+vhdl work "DataMem_Unit.vhd"
+vhdl work "Control_Unit.vhd"
+vhdl work "ALU_Unit.vhd"
+vhdl work "Processor.vhd"

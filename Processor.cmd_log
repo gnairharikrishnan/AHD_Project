@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf -ucf fpga_mapping.ucf 
+bitgen -intstyle ise -f Processor.ut Processor.ncd 
+bitgen -intstyle ise -f Processor.ut Processor.ncd 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf -ucf fpga_mapping.ucf 
+bitgen -intstyle ise -f Processor.ut Processor.ncd 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf -ucf fpga_mapping.ucf 
+bitgen -intstyle ise -f Processor.ut Processor.ncd 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf -ucf fpga_mapping.ucf 
+bitgen -intstyle ise -f Processor.ut Processor.ncd 
+netgen -intstyle ise -s 3  -pcf Processor.pcf -rpw 100 -tpw 0 -ar Structure -tm Processor -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Processor.ncd Processor_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/Amith/AHD/final_submission/Processor.xst" -ofn "C:/Users/Amith/AHD/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf -ucf fpga_mapping.ucf 
+netgen -intstyle ise -s 3  -pcf Processor.pcf -rpw 100 -tpw 0 -ar Structure -tm Processor -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Processor.ncd Processor_timesim.vhd 
+netgen -intstyle ise -s 3  -pcf Processor.pcf -rpw 100 -tpw 0 -ar Structure -tm Processor -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Processor.ncd Processor_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/Hari/Desktop/final_submission/Processor.xst" -ofn "C:/Users/Hari/Desktop/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf -ucf fpga_mapping.ucf 
+netgen -intstyle ise -s 3  -pcf Processor.pcf -rpw 100 -tpw 0 -ar Structure -tm Processor -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Processor.ncd Processor_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/Hari/Desktop/final_submission/Processor.xst" -ofn "C:/Users/Hari/Desktop/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Hari/Desktop/final_submission/Processor.xst" -ofn "C:/Users/Hari/Desktop/final_submission/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Hari/Desktop/final_submission/Processor.xst" -ofn "C:/Users/Hari/Desktop/final_submission/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga_mapping.ucf -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf -ucf fpga_mapping.ucf 
+netgen -intstyle ise -s 3  -pcf Processor.pcf -rpw 100 -tpw 0 -ar Structure -tm Processor -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Processor.ncd Processor_timesim.vhd 

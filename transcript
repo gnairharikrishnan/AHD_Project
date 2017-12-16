@@ -1,0 +1,246 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# do {Processor.tdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 18:12:34 on Dec 15,2017
+# vcom -reportprogress 300 -explicit -93 netgen/par/Processor_timesim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Compiling entity Processor
+# -- Compiling architecture Structure of Processor
+# -- Loading package STANDARD
+# End time: 18:12:39 on Dec 15,2017, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui -do "do {Processor.tdo}" 
+# Start time: 18:12:40 on Dec 15,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# Loading work.processor(structure)
+# SDF 10.4a Compiler 2015.03 Apr  7 2015
+# 
+# Loading simprim.x_sff(x_sff_v)
+# Loading simprim.x_lut6(x_lut6_v)
+# Loading simprim.x_lut5(x_lut5_v)
+# Loading simprim.x_carry4(x_carry4_v)
+# Loading simprim.x_buf(x_buf_v)
+# Loading simprim.x_zero(x_zero_v)
+# Loading simprim.x_one(x_one_v)
+# Loading simprim.x_obuf(x_obuf_v)
+# Loading simprim.x_ibuf_intermdisable_tpwrgt(x_ibuf_intermdisable_tpwrgt_v)
+# Loading simprim.x_ckbuf(x_ckbuf_v)
+# Loading simprim.x_mux2(x_mux2_v)
+# Loading simprim.x_inv(x_inv_v)
+# Loading simprim.x_ff(x_ff_v)
+# Loading simprim.x_roc(x_roc_v)
+# Loading simprim.x_toc(x_toc_v)
+# Loading instances from netgen/par/Processor_timesim.sdf
+# Loading timing data from netgen/par/Processor_timesim.sdf
+# ** Warning: Design size of 3237506 statements or 22173 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /processor File: netgen/par/Processor_timesim.vhd
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Amith  Hostname: AMITH-PC  ProcessID: 12284
+# 
+#           Attempting to use alternate WLF file "./wlftgzhz6v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftgzhz6v
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart -f 
+# Loading instances from netgen/par/Processor_timesim.sdf
+# Loading timing data from netgen/par/Processor_timesim.sdf
+# ** Warning: Design size of 2792490 statements or 22173 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /processor File: netgen/par/Processor_timesim.vhd
+force btnc 1 0ns, 0 20ns
+force led 0 0ns
+force clk_100 0 0ps, 1 10ps -repeat 20ps 
+force sw "000000000000000" 0ns 
+force btnu 1 50ns,0 70ns
+force btnr 1 90ns,0 110ns
+force sw x"0001" 90ns, 0 110ns
+force btnd 1 130ns,0 150ns
+force btnu 1 170ns,0 190ns
+force sw(9) 1 190ns
+force sw(14) 1 190ns
+force sw(8) 1 190ns
+force sw(0) 0 190ns
+force sw(1) 1 190ns
+force sw(2) 1 190ns
+force sw(3) 0 190ns
+force sw(4) 0 190ns
+force sw(5) 1 190ns
+force sw(6) 0 190ns
+run 50000ns
+restart -f 
+# Loading instances from netgen/par/Processor_timesim.sdf
+# Loading timing data from netgen/par/Processor_timesim.sdf
+# ** Warning: Design size of 2792490 statements or 22173 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /processor File: netgen/par/Processor_timesim.vhd
+force btnc 1 0ns, 0 20ns
+force led 0 0ns
+force clk_100 0 0ps, 1 1ns -repeat 2ns 
+force sw "000000000000000" 0ns 
+force btnu 1 50ns,0 70ns
+force btnr 1 90ns,0 110ns
+force sw x"0001" 90ns, 0 110ns
+force btnd 1 130ns,0 150ns
+force btnu 1 170ns,0 190ns
+force sw(9) 1 190ns
+force sw(14) 1 190ns
+force sw(8) 1 190ns
+force sw(0) 0 190ns
+force sw(1) 1 190ns
+force sw(2) 1 190ns
+force sw(3) 0 190ns
+force sw(4) 0 190ns
+force sw(5) 1 190ns
+force sw(6) 0 190ns
+run 2000ns
+# ** Warning: /X_FF HOLD   X  VIOLATION ON I WITH RESPECT TO CLK;
+# 
+#   Expected := 0.19 ns; Observed := 0.177 ns; At : 195.462 ns
+#    Time: 195462 ps  Iteration: 1  Instance: /processor/b_signal_17
+
+
+
+
+
+
+
+
+
+
+restart -f 
+# Loading instances from netgen/par/Processor_timesim.sdf
+# Loading timing data from netgen/par/Processor_timesim.sdf
+# ** Warning: Design size of 2792490 statements or 22173 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /processor File: netgen/par/Processor_timesim.vhd
+force btnc 1 0ns, 0 20ns
+force led 0 0ns
+force clk_100 0 0ps, 1 1ns -repeat 2ns 
+force sw "000000000000000" 0ns 
+force btnu 1 50ns,0 70ns
+force btnr 1 90ns,0 110ns
+force sw x"0001" 90ns, 0 110ns
+force btnd 1 130ns,0 150ns
+force btnu 1 170ns,0 190ns
+force sw(9) 1 190ns
+force sw(14) 1 190ns
+force sw(8) 1 190ns
+force sw(0) 0 190ns
+force sw(1) 1 190ns
+force sw(2) 1 190ns
+force sw(3) 0 190ns
+force sw(4) 0 190ns
+force sw(5) 1 190ns
+force sw(6) 0 190ns
+run 2000ns
+# ** Warning: /X_FF HOLD   X  VIOLATION ON I WITH RESPECT TO CLK;
+# 
+#   Expected := 0.19 ns; Observed := 0.177 ns; At : 195.462 ns
+#    Time: 195462 ps  Iteration: 1  Instance: /processor/b_signal_17
+
+
+
+
+
+
+
+
+
+restart -f 
+# Loading instances from netgen/par/Processor_timesim.sdf
+# Loading timing data from netgen/par/Processor_timesim.sdf
+# ** Warning: Design size of 2792490 statements or 22173 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /processor File: netgen/par/Processor_timesim.vhd
+force btnc 1 0ns, 0 20ns
+force led 0 0ns
+force clk_100 0 0ps, 1 4ns -repeat 8ns 
+force sw "000000000000000" 0ns 
+force btnu 1 50ns,0 70ns
+force btnr 1 90ns,0 110ns
+force sw x"0001" 90ns, 0 110ns
+force btnd 1 130ns,0 150ns
+force btnu 1 170ns,0 190ns
+force sw(9) 1 190ns
+force sw(14) 1 190ns
+force sw(8) 1 190ns
+force sw(0) 0 190ns
+force sw(1) 1 190ns
+force sw(2) 1 190ns
+force sw(3) 0 190ns
+force sw(4) 0 190ns
+force sw(5) 1 190ns
+force sw(6) 0 190ns
+run 2000ns
+restart -f 
+# Loading instances from netgen/par/Processor_timesim.sdf
+# Loading timing data from netgen/par/Processor_timesim.sdf
+# ** Warning: Design size of 2792490 statements or 22173 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /processor File: netgen/par/Processor_timesim.vhd
+force btnc 1 0ns, 0 2ns
+force led 0 0ns
+force clk_100 0 0ps, 1 1ns -repeat 2ns 
+force sw "000000000000000" 0ns 
+force btnu 1 0ns,0 7ns
+force btnr 1 0ns,0 11ns
+force sw x"0001" 2ns, 0 11ns
+force btnd 1 3ns,0 10ns
+force btnu 1 7ns,0 10ns
+force sw(9) 1 10ns
+force sw(14) 1 10ns
+force sw(8) 1 10ns
+force sw(0) 0 10ns
+force sw(1) 1 10ns
+force sw(2) 1 10ns
+force sw(3) 0 10ns
+force sw(4) 0 10ns
+force sw(5) 1 10ns
+force sw(6) 0 10ns
+run 2000ns
+# End time: 20:31:12 on Dec 15,2017, Elapsed time: 2:18:32
+# Errors: 0, Warnings: 10
